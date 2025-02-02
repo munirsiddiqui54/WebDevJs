@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add a modern font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo App</h1>
+        
+        <!-- Form for adding new tasks -->
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Add a new task" required>
+            <button type="submit">Add Task</button>
+        </form>
+        
+        <!-- List to display todo items -->
+        <ul id="todo-list"></ul>
+        
+        <!-- Task counter -->
+        <div id="task-counter">Total tasks: <span id="task-count">0</span></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
